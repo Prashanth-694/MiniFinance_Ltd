@@ -1,0 +1,43 @@
+.cardc{
+    background-color:rgb(14, 42, 85);
+    border-radius: 0px;
+    margin: 5px 0px;
+}
+.cardb{
+    background-color:rgb(238, 245, 255);
+    border-radius: 0px;
+    margin: 5px 0px;
+}
+.card-body{
+    height: 250px;
+}
+hr.rounded {
+    border-top: 8px solid white;
+    border-radius: 5px;
+    
+  }
+  .total{
+    color: rgb(242, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+  table{
+    border: none;
+  }
+  td,th{
+    border: none;
+  }
+.t-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.t-body{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0px;
+    padding-bottom: 20px;
+}
+.select{
+    width: 250px;
+}

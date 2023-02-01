@@ -1,0 +1,56 @@
+<div class="container">
+    <form (ngSubmit)="onSubmit()" #myForm="ngForm">
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row my-4">
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example1" class="form-control"
+              [(ngModel)]="form.productName" name="productName" placeholder="Enter a valid productName"
+                                 #productName="ngModel" required />
+              <label class="form-label" for="form6Example1">Product Name</label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form6Example2" class="form-control" 
+              [(ngModel)]="form.productType" name="productType" placeholder="Enter a valid productName"
+                                 #productType="ngModel" required/>
+              <label class="form-label" for="form6Example2">Product Type</label>
+            </div>
+          </div>
+        </div>
+      
+       <!-- Email input -->
+       <div class="form-outline mb-2">
+        <input type="number" id="form6Example5" class="form-control"
+        [(ngModel)]="form.productCharge" name="productCharge" placeholder="Enter a valid productName"
+                                 #productCharge="ngModel" required />
+        <label class="form-label" for="form6Example5">Product Charge</label>
+      </div>
+    
+      <!-- Number input -->
+      <div class="form-outline mb-2">
+        <input type="text" id="form6Example6" class="form-control" 
+        [(ngModel)]="form.productImage" name="productImage" placeholder="Enter a valid productName"
+                                 #productImage="ngModel" required/>
+        <label class="form-label" for="form6Example6">Product Image</label>
+      </div>
+    
+      <!-- Message input -->
+      <div class="form-outline mb-2">
+        <textarea class="form-control" id="form6Example7" rows="4"
+        [(ngModel)]="form.productDescription" name="productDescription" placeholder="Enter a valid productName"
+                                 #productDescription="ngModel" required></textarea>
+        <label class="form-label" for="form6Example7">Product Description</label>
+      </div>
+    
+      <!-- Checkbox -->
+      <div class="form-check d-flex justify-content-center mb-2">
+          <button type="submit" class="btn btn-primary btn-block " >Add Item</button>
+       
+      </div>
+    
+      <!-- Submit button -->
+        
+      </form>
+</div>

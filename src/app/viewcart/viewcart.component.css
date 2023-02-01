@@ -1,0 +1,28 @@
+ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+li{
+    list-style: none;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    color: #14284d;
+    margin-left: 90%;
+}
+.count{
+    background-color: red;
+    width: 15px;
+    height: 18px;
+    border-radius: 50%;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    position: absolute;
+    right: 70px;
+    top: 15px;
+}
